@@ -38,11 +38,11 @@ npm i christmas-party-ui
 
 기여는 언제나 환영입니다! christmas-party-ui 프로젝트에는 행동 강령이 있으므로 모든 상호작용 과정에서 이를 준수해주시기를 바랍니다.
 
-[{행동 강령 링크}]
+[contributing.md](https://github.com/2024-opensource/Season-ui/blob/main/docs/CONTRIBUTING.md)
 
 컴포넌트 추가, 문서화 개선, 버그 수정 등 어떤 기여든 좋습니다. 저희 christmas-party-ui 프로젝트에 기여하는 자세한 방법은 아래의 링크를 확인해주세요.
 
-[{기여 방법 링크}]
+[code of conduct.md](https://github.com/2024-opensource/Season-ui/blob/main/docs/CODE_OF_CONDUCT.md)
 
 ## 🙏 지원 
 
@@ -56,8 +56,6 @@ christmas-party-ui가 도움이 되었다면, 커피 한 잔으로 우리를 후
 ## 🌟 기여자 
 
 christmas-party-ui 프로젝트를 더욱 빛나게 만들어준 기여자들에게 감사드립니다.
-
-<img width="682" alt="기여자표시예시" src="https://github.com/user-attachments/assets/c846a986-972a-4cc9-b027-5a2ebc275ba6">
 
 
 ## ✏️ 라이선스
