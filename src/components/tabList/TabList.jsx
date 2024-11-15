@@ -41,6 +41,7 @@ const TabsContainer = styled.div`
   gap: 20px;
   justify-content: center;
   padding: 20px;
+  width: 450px;
 `;
 
 const Tab = styled.div`
