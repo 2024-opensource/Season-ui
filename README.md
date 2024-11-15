@@ -1,5 +1,5 @@
 # 🎄 christmas-party-ui
-
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F2024-opensource%2FSeason-ui&count_bg=%23B03B26&title_bg=%23436E53&icon=&icon_color=%23E7E7E7&title=%F0%9F%8E%85+X-mas&edge_flat=false)](https://hits.seeyoufarm.com)
 ![리드미소개사진](https://github.com/user-attachments/assets/16991045-8180-4334-8814-e0d4e59c0a82)
 
 크리스마스 분위기를 손쉽게 어플리케이션에 적용할 수 있도록 만든 리액트 컴포넌트 모음입니다.
