@@ -13,7 +13,7 @@ export default {
       description: '현재 진행 정도',
     },
     max: {
-      control: { type: 'number', min: 1 },
+      control: { type: 'number', min: 5 },
       description: 'progress bar의 최대값',
     },
   },
