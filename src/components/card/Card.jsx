@@ -17,12 +17,32 @@ const CardStyle = styled.div`
   margin: 0;
 `;
 
-const ImagePlaceholder = styled.div`
+const ImagePlaceholder = styled.img`
   width: 90%;
   height: ${({ width }) => width * 0.75}px;
   background-color: white;
   border-radius: 10px;
   margin-bottom: ${({ width }) => width * 0.05}px;
+  object-fit: cover;
+`;
+
+const SkeletonPlaceholder = styled.div`
+  width: 90%;
+  height: ${({ width }) => width * 0.75}px;
+  background: linear-gradient(-135deg, #e0e0e0 25%, #f5f5f5 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  border-radius: 10px;
+  margin-bottom: ${({ width }) => width * 0.05}px;
+  animation: skeleton-loading 3s infinite linear;
+
+  @keyframes skeleton-loading {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
 `;
 
 const Title = styled.h3`
@@ -57,12 +77,16 @@ const HireButton = styled.button`
   }
 `;
 
-const Card = ({ title, description, buttonText, width }) => {
+const Card = ({ title, description, buttonText, width, imageSrc }) => {
   const iconWidth = width * 0.15;
 
   return (
     <CardStyle width={width}>
-      <ImagePlaceholder width={width} />
+      {imageSrc ? (
+        <ImagePlaceholder src={imageSrc} width={width} />
+      ) : (
+        <SkeletonPlaceholder width={width} />
+      )}
       <Title width={width}>{title}</Title>
       <Description width={width}>{description}</Description>
       <IconRow width={width}>
@@ -80,6 +104,7 @@ Card.propTypes = {
   description: PropTypes.string.isRequired,
   buttonText: PropTypes.string.isRequired,
   width: PropTypes.number,
+  imageSrc: PropTypes.string,
 };
 
 Card.defaultProps = {
@@ -87,4 +112,5 @@ Card.defaultProps = {
   description: '저 밥 조금만 먹어요',
   buttonText: 'Hire Me',
   width: 200,
+  imageSrc: '',
 };
