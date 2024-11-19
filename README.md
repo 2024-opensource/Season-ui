@@ -32,7 +32,7 @@ npm i christmas-party-ui
 
 자세한 사용 방법은 아래의 링크를 확인해주세요.
 
-[how to use christmas-party-ui](https://672ac48d7049f10e7114725c-mnevjgarnb.chromatic.com//) 
+[how to use christmas-party-ui](https://672ac48d7049f10e7114725c-mnevjgarnb.chromatic.com/) 
 
 ## 🎶 기여하기
 
