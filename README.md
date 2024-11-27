@@ -50,7 +50,7 @@ npm i christmas-party-ui
 
 christmas-party-ui가 도움이 되었다면, 커피 한 잔으로 우리를 후원해 주세요.
 
-<img src="https://github.com/user-attachments/assets/e0da0c63-4e20-4e9a-ae58-0d59b6da15d9" width="200">
+<img src="https://github.com/user-attachments/assets/dc394a69-c6fc-4987-b140-001e95db69d8" width="200">
 
 
 ## 🌟 기여자 
